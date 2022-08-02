@@ -1,0 +1,49 @@
+body{
+    min-height: 100vh;
+    display:grid;
+   align-items: center;
+   background-color: aqua;
+   justify-content: center;  
+}
+.container{
+    text-align: center;
+    width: 500px;
+    background-color:azure;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.container h1{
+    font-size: 70px;
+    color: black;
+}
+
+.container h2{
+    font-size:50px;
+    color: black;
+}
+#increment{
+    border-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px 5px;
+}
+#decrement{
+    border-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px 5px;
+   
+}
+#decrement:hover{
+    border-color: aqua;
+}
+#reset{
+    border-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px 5px;
+}
+button:hover{
+    background-color: green;
+
+} 
